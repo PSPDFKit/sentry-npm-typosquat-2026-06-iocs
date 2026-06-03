@@ -1,5 +1,7 @@
 # Sentry Forged-Event npm Typosquat IOCs — June 2026
 
+*Associated blog post: [https://nutrient.io/blog/emerging-threats-your-logging-system/](https://nutrient.io/blog/emerging-threats-your-logging-system/)*
+
 This repository contains public IOCs, detection tooling, and a shareable report for an observed malicious npm typosquat / prompt-injection campaign based on forged Sentry issue messages to induce responders or AI agents to run fake Sentry profiling diagnostics.
 
 No malware samples are included in this repository.
