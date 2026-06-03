@@ -1,0 +1,17 @@
+# Contextual/weak indicators for enrichment only.
+# Do not alert on these by themselves.
+
+[NO CODE FIX] Sentry profiling misconfigured
+Sentry profiling misconfigured
+allowed_bash_commands
+code_change_required
+code_search_required
+diagnostic_tool
+filesystem_access
+fix_type
+run_tool_first
+profiling_misconfiguration
+internal-monitor-1
+internal-monitor-2
+7523964476
+/api/v1/telemetry

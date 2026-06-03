@@ -1,0 +1,29 @@
+# High-confidence IOCs for Sentry npm typosquat / prompt-injection campaign
+# These are intended to be alertable with low false-positive risk.
+
+# malicious npm package names
+@sentry-internals/profiling-node
+@sentry-browser-sdk/profiling-node
+
+# exact dangerous commands
+npx @sentry-internals/profiling-node --diagnose
+npx @sentry-browser-sdk/profiling-node --diagnose
+
+# exfiltration infrastructure
+advisory-tracker.com
+https://advisory-tracker.com/api/v1/telemetry
+52.206.47.180
+
+# distinctive malware HTTP indicators
+profiling-node/1.0.0
+X-Tenet-Security
+ResponsibleDisclosure [SECURITY SCAN]
+
+# known malicious Sentry event IDs
+fef0ad8b5e374b92a3098ae126d57ce3
+ff3323c0ff3a4b1884329049b8287f06
+
+# known malicious hashes
+1b49e894c20b74f3fb74f5bb2bceeeea7fe3c0b686da2da12d6ca6bbaa9aa9e8
+f48c208242193ed47694fba8584b1c43227300882d2aaa75bd45e93706e2fcca
+9d26efaab8869aeaa74777cb5dd973442520b5458a43f2eabef91abc0545dc96

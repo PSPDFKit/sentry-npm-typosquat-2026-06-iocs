@@ -1,0 +1,18 @@
+# scanner outputs
+*ioc-scan-results*.csv
+*sentry-event-analysis*.csv
+
+# local/private evidence; do not commit malware samples
+/evidence/
+/archives/
+/analysis/
+*.tgz
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
