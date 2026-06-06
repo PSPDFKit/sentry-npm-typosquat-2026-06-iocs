@@ -2,6 +2,8 @@
 
 *Associated blog post: [https://nutrient.io/blog/emerging-threats-your-logging-system/](https://nutrient.io/blog/emerging-threats-your-logging-system/)*
 
+*GitHub Security Advisory from Sentry: [https://github.com/getsentry/sentry/security/advisories/GHSA-fx76-375g-xq25](https://github.com/getsentry/sentry/security/advisories/GHSA-fx76-375g-xq25)*
+
 This repository contains public IOCs, detection tooling, and a shareable report for an observed malicious npm typosquat / prompt-injection campaign based on forged Sentry issue messages to induce responders or AI agents to run fake Sentry profiling diagnostics.
 
 No malware samples are included in this repository.

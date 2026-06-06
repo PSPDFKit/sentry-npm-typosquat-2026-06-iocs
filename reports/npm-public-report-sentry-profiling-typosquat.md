@@ -28,13 +28,14 @@ The attack appears to use fake Sentry diagnostic/remediation language to induce 
 
 ## Concise Timeline
 
-All times below are Central European local time on 2026-06-03.
+All times below are Central European Time (GMT+2).
 
 ```text
-12:27  @sentry-internals/profiling-node@1.0.0 published to npm
-13:50  Malicious Sentry issue/event detected
-14:28  Report sent to npm
-14:48  Report sent to Sentry
+2026-06-03 12:27  @sentry-internals/profiling-node@1.0.0 published to npm
+2026-06-03 13:50  Malicious Sentry issue/event detected
+2026-06-03 14:28  Report sent to npm
+2026-06-03 14:48  Report sent to Sentry
+2026-06-06 12:16  Sentry published a [GitHub Security Advisory](https://github.com/getsentry/sentry/security/advisories/GHSA-fx76-375g-xq25)
 ```
 
 > **DANGEROUS — DO NOT RUN:**
